@@ -11,6 +11,8 @@ use Carbon\Carbon;
 
 class StatsOverview extends BaseWidget
 {
+    protected static ?int $sort = 1;  // 👈 Corregido
+    
     protected function getStats(): array
     {
         return [

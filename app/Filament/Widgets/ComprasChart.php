@@ -9,7 +9,7 @@ use Carbon\Carbon;
 class ComprasChart extends ChartWidget
 {
     // 👈 CORREGIDO: sin static
-    protected ?string $heading = 'Compras mensuales';
+    protected static ?int $sort = 3;
     
     protected function getData(): array
     {

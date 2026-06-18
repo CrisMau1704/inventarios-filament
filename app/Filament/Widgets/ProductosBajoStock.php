@@ -9,7 +9,7 @@ use App\Models\Producto;
 
 class ProductosBajoStock extends BaseWidget
 {
-    protected int | string | array $columnSpan = 1;
+    protected static ?int $sort = 3;
     
     protected function getHeading(): string
     {
